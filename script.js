@@ -4,7 +4,7 @@ import { OrbitControls } from "/threejs/OrbitControls.js"
 
 import { GLTFLoader } from "/threejs/GLTFLoader.js"
 
-// camera...
+// camera... 
 
 const camera = new THREE.PerspectiveCamera( 75, innerWidth/innerHeight, 0.1, 1000 );
 camera.position.set(-12.5, 2, -2.2)
