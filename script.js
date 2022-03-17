@@ -822,21 +822,6 @@ wayGeo.setIndex([
 const ways = new THREE.Mesh(wayGeo, wayMat)
 scene.add(ways)
 
-var mic = document.querySelector(".controlMic")
-mic.addEventListener("click", function() {
-
-var point = new THREE.Vector3(-2, -0.1, -1.2)
-var direction = new THREE.Vector3(-5, -0.1, -1.2)
-raycaster.set(direction, point)
-const intersects = raycaster.intersectObject(ways)
-if (intersects.length>0) {
-  alert('inside')
-} else {
-  alert('outside')
-}
-
-})
-
 // controls...
 
 var sRecognition= window.webkitSpeechRecognition
