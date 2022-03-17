@@ -838,7 +838,7 @@ if (intersects.length>0) {
 })
 
 // controls...
-/*
+
 var sRecognition= window.webkitSpeechRecognition
 var recognition = new sRecognition()
 
@@ -874,7 +874,7 @@ recognition.onresult = function(event) {
 
 recognition.onerror = function(event) { 
   console.log(event)
-}*/
+}
 
 // rendering...
 
