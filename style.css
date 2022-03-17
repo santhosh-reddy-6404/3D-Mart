@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+  margin: 0;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+
+.controlMic {
+  position: fixed;
+  z-index: 10;
+  bottom: 15px;
+  left: 15px;
+  height: 50px;
+  width: 50px;
+  background: red;
+  border-radius: 50%;
+}
+
+.move {
+  position: fixed;
+  z-index: 10;
+  bottom: 15px;
+  right: 15px;
+  height: 50px;
+  width: 50px;
+  background: #2BFF00;
+  border-radius: 50%;
+}
+
+#product {
+  display: flex;
+  width: 1540px;
+  height: 770px;
+  background: #EA9417;
+}
+
+#product img {
+  width: 46%;
+  height: 96%;
+  border: 30px solid red;
+}
+
+#product .text {
+  width: 46%;
+  height: 96%;
+  padding: 2%;
+}
+
+#product .text p {
+  font-size: 100px;
+  font-family: 'Poppins', san-serif;
+  color: white;
+}
+
+#product .text span {
+  font-size: 80px;
+  font-family: 'Poppins', san-serif;
+  color: #8B1D9A;
+}
+
+#profile {
+  width: 1540px;
+  height: 770px;
+  background: #B09D1B;
+}
+
+#profile div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 80px;
+  background: #6A1F85;
+}
+
+#profile img {
+  width: 30%;
+  height: 90%;
+  padding: 1.5%;
+}
+
+#profile .text {
+  display: block;
+  width: 63%;
+  height: 90%;
+  padding: 1.5%;
+}
+
+#profile .text p {
+  
+  font-size: 100px;
+  font-family: 'Poppins', san-serif;
+  color: #42FD1C;
+}
+
+#profile .text p span {
+  color: white;
+}
+
+#profile .text p span i {
+  color: #42FD1C;
+}

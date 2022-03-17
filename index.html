@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <meta charset="UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>ThreeJS</title>
+  
+  <link rel="stylesheet" href="style.css"></link>
+  
+  <script src='https://threejs.org/build/three.js'></script>
+  
+  <script type="module" src="script.js"></script>
+  
+</head>
+
+<body>
+
+<div class="controlMic">
+  <img src="/assets/mic.png" width="100%" height="100%">
+</div>
+
+<div class="move">
+  <img src="/assets/move.png" width="100%" height="100%">
+</div>
+
+</body>
+
+<script>
+
+var move = document.querySelector(".move")
+move.addEventListener("contextmenu",function(e){
+  e.preventDefault();
+  e.stopPropagation();
+  return(false);
+})
+var mic = document.querySelector(".controlMic")
+mic.addEventListener("contextmenu",function(e) {
+  e.preventDefault()
+  e.stopPropagation();
+  return(false);
+})
+
+</script>
+
+</html>
