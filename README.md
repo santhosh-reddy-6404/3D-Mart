@@ -1,2 +1,3 @@
-# 3D-Mart
-A 3D super market built with threejs
+# 3D-Mart : 3D super market built with threejs
+
+Preview: https://3dmart.netlify.app/
